@@ -138,6 +138,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgements
 
 This project uses the following open-source tools and libraries:
-- [PANDORA](https://github.com/EleutherAI/pandora) - Protein complex structure modeling
+- [PANDORA](https://github.com/X-lab-3D/PANDORA) - Protein complex structure modeling
 - [MaSIF](https://github.com/LPDI-EPFL/masif) - Protein interface feature extraction
 - [ProteinMPNN](https://github.com/dauparas/ProteinMPNN) - Protein sequence design and scoring

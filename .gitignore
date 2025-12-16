@@ -14,7 +14,6 @@ __pypackages__/
 
 # Project specific
 # Model files (usually large, store in Git LFS or exclude)
-model/
 *.pt
 *.pth
 *.pkl
