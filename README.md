@@ -74,8 +74,9 @@ conda env create -f environment.yml
 
 # Activate environment
 conda activate immunbert
+```
 
-
+```
 ## Usage
 
 ### 1. Prepare Data
