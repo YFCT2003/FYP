@@ -1,0 +1,42 @@
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# jupyter files
+.ipynb*
+*.ipynb
+
+# IDE files
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Project specific
+# Model files (usually large, store in Git LFS or exclude)
+model/
+*.pt
+*.pth
+*.pkl
+
+# Data files (usually large datasets)
+data/train.tsv
+data/test.tsv
+data/validation.tsv
+# data/*.csv
+weight
+
+# Output files
+*.png
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# git file
+.git
