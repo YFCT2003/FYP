@@ -76,9 +76,10 @@ conda env create -f environment.yml
 conda activate immunbert
 ```
 
-```
+
 ## Usage
 
+```
 ### 1. Prepare Data
 Place training data in the `data/` directory and model weights in the `model/` directory.
 
