@@ -60,8 +60,8 @@ ImmunBert/
 │   ├── test_interface_encoding.py
 │   ├── test_inverse_folding.py
 │   └── test_prediction.py
-├── data/                  # Training data (user provided)
-├── model/                 # Model weights (user provided)
+├── data/                  # Training data
+├── model/                 # Model weights
 ├── environment.yml        # Conda environment configuration file
 └── README.md             # Project documentation
 ```
@@ -75,9 +75,6 @@ conda env create -f environment.yml
 # Activate environment
 conda activate immunbert
 
-# Or install dependencies using pip
-pip install -r requirements.txt
-```
 
 ## Usage
 
@@ -98,7 +95,7 @@ scorer = InverseFolder()
 predictor = ImmunogenicityPredictor()
 
 # Example sequences
-pmhc_sequence = "SIINFEKL.A.B"
+pmhc_sequence = "SIINFEKL.FAYTYYDWVTETVHNLE"
 cdr3b_sequence = "CASSLGQGDNIQYF"
 
 # 1. Structure modeling
@@ -130,10 +127,6 @@ python -m pytest tests/
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Development Team
-
-- Project Lead: [Your Name]
-- Team Members: [Team Members]
 
 ## Acknowledgements
 
